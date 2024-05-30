@@ -7,8 +7,8 @@
   description: A uniform consisting of snow coloured Turtleneck sweater with a navy blue skirt and gold belt straps.
   components:
   - type: Sprite
-    sprite: Ronstation/Clothing/Uniform/bkturtleneck.rsi
+    sprite: Ronstation/Clothing/Uniforms/bkturtleneck.rsi
   - type: Clothing
-    sprite: Ronstation/Clothing/Uniform/bkturtleneck.rsi
+    sprite: Ronstation/Clothing/Uniforms/bkturtleneck.rsi
 
 # caldera items
