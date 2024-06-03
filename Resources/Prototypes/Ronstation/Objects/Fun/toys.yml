@@ -37,7 +37,7 @@
   description: A stuffed toy that resembles a sub-species of blackburn created for trench clearing and cannon fodder.
   components:
     - type: Sprite
-      sprite: /Audio/Ronstation/Objects/Fun/bkplushie.rsi
+      sprite: Ronstation/Objects/Fun/bkplushie.rsi
       state: plushie_bkv2
     - type: EmitSoundOnUse
       sound:
