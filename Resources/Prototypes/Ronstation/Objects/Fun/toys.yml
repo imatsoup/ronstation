@@ -11,24 +11,24 @@
       state: plushie_bkv1
     - type: EmitSoundOnUse
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnLand
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnActivate
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnTrigger
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: Food
       requiresSpecialDigestion: true
       useSound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: MeleeWeapon
       wideAnimationRotation: 180
       soundHit:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
 
 - type: entity
   parent: BasePlushie
@@ -37,28 +37,28 @@
   description: A stuffed toy that resembles a sub-species of blackburn created for trench clearing and cannon fodder.
   components:
     - type: Sprite
-      sprite: Ronstation/Objects/Fun/bkplushie.rsi
+      sprite: /Audio/Ronstation/Objects/Fun/bkplushie.rsi
       state: plushie_bkv2
     - type: EmitSoundOnUse
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnLand
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnActivate
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnTrigger
       sound:
-        path: /Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: Food
       requiresSpecialDigestion: true
       useSound:
-        path: /Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: MeleeWeapon
       wideAnimationRotation: 180
       soundHit:
-        path: /Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
 
 - type: entity
   parent: BasePlushie
@@ -71,22 +71,22 @@
       state: plushie_bkv3
     - type: EmitSoundOnUse
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnLand
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnActivate
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: EmitSoundOnTrigger
       sound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: Food
       requiresSpecialDigestion: true
       useSound:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
     - type: MeleeWeapon
       wideAnimationRotation: 180
       soundHit:
-        path: Ronstation/Items/Toys/fox.ogg
+        path: /Audio/Ronstation/Items/Toys/fox.ogg
 # caldera items
