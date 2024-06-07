@@ -47,7 +47,7 @@
   components:
   - type: GhostRole
     name: ghost-role-information-closet-skeleton-name
-    description: ghost-role-information-protag-skeleton-description
+    description: ghost-role-information-closet-skeleton-description
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
