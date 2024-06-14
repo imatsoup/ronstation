@@ -6,7 +6,7 @@
   requirements:
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 54000 # 15 hours
+    time: 600 # 15 hours
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
@@ -28,3 +28,9 @@
     id: DetectivePDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltHolsterFilled
+  storage:
+    back:
+    - BoxSurvivalSecurity
+    - Flash
+    - ForensicPad
+    - ForensicScanner

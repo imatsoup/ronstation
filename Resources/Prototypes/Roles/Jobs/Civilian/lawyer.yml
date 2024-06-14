@@ -5,7 +5,7 @@
   playTimeTracker: JobLawyer
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 # 10 hrs
+      time: 600 # 10 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop
@@ -24,3 +24,7 @@
     # TODO add copy of space law
   inhand:
     - BriefcaseBrownFilled
+  storage:
+    back:
+    - BoxSurvival
+    - RubberStampLawyer
