@@ -6,9 +6,9 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 600 #10 hrs
+      time: 36000 #10 hrs
     - !type:OverallPlaytimeRequirement
-      time: 600 #40 hrs
+      time: 144000 #40 hrs
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
@@ -36,5 +36,4 @@
     ears: ClothingHeadsetRD
   storage:
     back:
-    - BoxSurvival
     - Flash
