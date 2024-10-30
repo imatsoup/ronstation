@@ -109,7 +109,7 @@
   - type: CanEscapeInventory
   - type: NpcFactionMember
     factions:
-    - Mouse
+    - Syndicate
   - type: Body
     prototype: Mothroach
   - type: TypingIndicator
