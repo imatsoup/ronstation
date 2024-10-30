@@ -1244,9 +1244,9 @@
   icon: { sprite: Ronstation/Objects/Devices/communication.rsi, state: old-radio-syndimothroach }
   productEntity: ReinforcementRadioSyndicateSyndiMothroach
   discountDownTo:
-    Telecrystal: 2
+    Telecrystal: 3
   cost:
-    Telecrystal: 4
+    Telecrystal: 5
   categories:
     - UplinkAllies
 
