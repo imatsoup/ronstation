@@ -6,3 +6,7 @@ ghost-role-information-closet-skeleton-nonantagonist-description = You are argua
 
 ghost-role-information-centcom-blueshield-officer-name = Blueshield Officer
 ghost-role-information-centcom-blueshield-officer-description = Become bodyguard for visiting officers or other VIP. Blueshield officers employed by Central Command enjoy higher access than on the station.
+
+ghost-role-information-SyndiMothroach-name = SyndiMothroach
+ghost-role-information-SyndiMothroach-description = You're the faithful trained pet of nuclear operatives with a bit of biting power to scare the enemies. Serve your master to the death!
+ghost-role-information-SyndiMothroach-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with the agent who summoned you.

@@ -1238,6 +1238,19 @@
     - UplinkAllies
 
 - type: listing
+  id: UplinkMobMothroachSyndicate
+  name: uplink-mobmothroach-syndicate-name
+  description: uplink-mobmothroach-syndicate-desc
+  icon: { sprite: Ronstation/Objects/Devices/communication.rsi, state: old-radio-syndimothroach }
+  productEntity: ReinforcementRadioSyndicateSyndiMothroach
+  discountDownTo:
+    Telecrystal: 2
+  cost:
+    Telecrystal: 4
+  categories:
+    - UplinkAllies
+
+- type: listing
   id: UplinkSyndicatePersonalAI
   name: uplink-syndicate-pai-name
   description: uplink-syndicate-pai-desc
