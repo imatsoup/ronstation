@@ -1,40 +1,4 @@
 ﻿Entries:
-- author: shampunj
-  changes:
-  - message: Rat king can now wideswing
-    type: Tweak
-  id: 7078
-  time: '2024-08-10T12:47:55.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30808
-- author: BackeTako
-  changes:
-  - message: Added a suitskirt for the psychologist
-    type: Add
-  id: 7079
-  time: '2024-08-10T12:51:54.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30709
-- author: Unkn0wnGh0st333
-  changes:
-  - message: ERT Chaplain starting gear was fixed and will no longer give the ERT
-      Engineer gear
-    type: Fix
-  id: 7080
-  time: '2024-08-10T12:55:20.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30855
-- author: Ubaser
-  changes:
-  - message: Light tube structures now have new sprites.
-    type: Tweak
-  id: 7081
-  time: '2024-08-10T15:00:22.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/29091
-- author: lzk228
-  changes:
-  - message: Standartized some clothing recipes.
-    type: Tweak
-  id: 7082
-  time: '2024-08-10T18:16:56.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/29315
 - author: TheShuEd
   changes:
   - message: You cat cut burger bun into two halfs, and make custom burgers now!
@@ -3951,3 +3915,40 @@
   id: 7577
   time: '2024-11-02T01:33:26.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/28856
+- author: K-Dynamic
+  changes:
+  - message: Pills are explosion resistant.
+    type: Tweak
+  id: 7578
+  time: '2024-11-02T09:51:45.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/32458
+- author: K-Dynamic
+  changes:
+  - message: Handcrafted gauze now takes 3 seconds instead of 10 seconds of crafting
+    type: Tweak
+  - message: Medical techfab gauze recipe now takes 1 cloth instead of 2
+    type: Tweak
+  id: 7579
+  time: '2024-11-02T09:53:19.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/32744
+- author: Ubaser
+  changes:
+  - message: Service workers can now be antagonists.
+    type: Fix
+  id: 7580
+  time: '2024-11-02T10:07:52.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/31359
+- author: AftrLite
+  changes:
+  - message: The AME now has a new sound effect for fuel injection!
+    type: Add
+  id: 7581
+  time: '2024-11-02T13:19:33.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33097
+- author: deltanedas
+  changes:
+  - message: Printing cables in an autolathe is now 20 times faster.
+    type: Tweak
+  id: 7582
+  time: '2024-11-02T13:24:08.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/31521
