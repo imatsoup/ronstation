@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: TheShuEd
-  changes:
-  - message: You cat cut burger bun into two halfs, and make custom burgers now!
-    type: Add
-  id: 7083
-  time: '2024-08-10T19:31:32.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30755
-- author: thetolbean
-  changes:
-  - message: Updated Core's boxing ring beacon label to be correct
-    type: Tweak
-  id: 7084
-  time: '2024-08-10T19:50:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/30800
 - author: Flareguy
   changes:
   - message: Added vox sprites for most of the remaining common mask items.
@@ -3952,3 +3938,18 @@
   id: 7582
   time: '2024-11-02T13:24:08.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/31521
+- author: Centronias
+  changes:
+  - message: Fixed a bug where attempting to speak into a handheld radio and an intercom
+      simultaneously would lead to only one device transmitting the message.
+    type: Fix
+  id: 7583
+  time: '2024-11-02T15:04:22.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/32737
+- author: joshepvodka
+  changes:
+  - message: Headphones are now selectable in loadouts.
+    type: Add
+  id: 7584
+  time: '2024-11-02T15:12:26.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33067
