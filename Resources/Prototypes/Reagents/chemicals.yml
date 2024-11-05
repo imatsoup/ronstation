@@ -191,7 +191,7 @@
   id: Calomel
   name: reagent-name-calomel
   desc: reagent-desc-calomel
-  group: Toxins
+  group: Chemical 
   flavor: bitter
   color: "#6e4665"
   physicalDesc: reagent-physical-desc-odorless
@@ -209,7 +209,7 @@
   id: AmmoniatedMercury
   name: reagent-name-ammoniated-mercury
   desc: reagent-desc-ammoniated-mercury
-  group: Medicine
+  group: Chemical
   flavor: metallic
   color: "#f2f0f0"
   physicalDesc: reagent-physical-desc-crystalline
@@ -270,7 +270,7 @@
   id: Formaldehyde
   name: reagent-name-formaldehyde
   desc: reagent-desc-formaldehyde
-  group: Toxins
+  group: Chemical
   color: "#b4004b"
   boilingPoint: 254.1
   meltingPoint: 181.2
