@@ -4,7 +4,8 @@
   weights:
     Dragon: 1
     # Revenant: 1
-    LoneOp: 1
+    Wizard: 1
+    FailedCommunique: 1
 
 - type: ninjaHackingThreat
   id: Dragon
@@ -17,6 +18,6 @@
 #   rule: RevenantSpawn
 
 - type: ninjaHackingThreat
-  id: LoneOp
-  announcement: terror-loneop
-  rule: LoneOpsSpawn
+  id: Wizard
+  announcement: terror-wizard
+  rule: WizardSpawn
