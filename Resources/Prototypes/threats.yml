@@ -3,14 +3,20 @@
   id: NinjaThreats
   weights:
     Dragon: 1
-    Revenant: 1
+    # Revenant: 1
+    LoneOp: 1
 
 - type: ninjaHackingThreat
   id: Dragon
   announcement: terror-dragon
   rule: DragonSpawn
 
+# - type: ninjaHackingThreat
+#   id: Revenant
+#   announcement: terror-revenant
+#   rule: RevenantSpawn
+
 - type: ninjaHackingThreat
-  id: Revenant
-  announcement: terror-revenant
-  rule: RevenantSpawn
+  id: LoneOp
+  announcement: terror-loneop
+  rule: LoneOpsSpawn
