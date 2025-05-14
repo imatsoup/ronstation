@@ -3,21 +3,14 @@
   id: NinjaThreats
   weights:
     Dragon: 1
-    # Revenant: 1
-    Wizard: 1
-    FailedCommunique: 1
+    Revenant: 1
 
 - type: ninjaHackingThreat
   id: Dragon
   announcement: terror-dragon
   rule: DragonSpawn
 
-# - type: ninjaHackingThreat
-#   id: Revenant
-#   announcement: terror-revenant
-#   rule: RevenantSpawn
-
 - type: ninjaHackingThreat
-  id: Wizard
-  announcement: terror-wizard
-  rule: WizardSpawn
+  id: Revenant
+  announcement: terror-revenant
+  rule: RevenantSpawn
