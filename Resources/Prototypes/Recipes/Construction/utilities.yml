@@ -480,14 +480,14 @@
   - GasPipeFourwayAlt1
   - GasPipeFourwayAlt2
 
-- type: construction
-  id: GasPipeManifold
-  graph: GasPipe
-  startNode: start
-  targetNode: manifold
-  category: construction-category-utilities
-  placementMode: SnapgridCenter
-  canBuildInImpassable: true
+# - type: construction
+#   id: GasPipeManifold
+#   graph: GasPipe
+#   startNode: start
+#   targetNode: manifold
+#   category: construction-category-utilities
+#   placementMode: SnapgridCenter
+#   canBuildInImpassable: true
 
 # ATMOS UNARY
 - type: construction
