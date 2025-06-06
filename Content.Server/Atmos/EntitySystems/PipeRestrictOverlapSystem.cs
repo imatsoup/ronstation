@@ -4,7 +4,7 @@ using Content.Server.NodeContainer;
 using Content.Server.NodeContainer.Nodes;
 using Content.Server.Popups;
 using Content.Shared.Atmos;
-using Content.Shared._Goobstation.CCVar; // Goobstation - Licensed under AGPL-v3.0.
+using Content.Shared.Atmos.Components;
 using Content.Shared.Construction.Components;
 using Content.Shared.NodeContainer;
 using JetBrains.Annotations;
@@ -108,22 +108,15 @@ public sealed class PipeRestrictOverlapSystem : EntitySystem
 
     public (bool, PipeDirection) PipeNodesOverlap(Entity<NodeContainerComponent, TransformComponent> ent, Entity<NodeContainerComponent, TransformComponent> other, PipeDirection takenDirs)
     {
-        var entDirs = GetAllDirections(ent).ToList();
-        var otherDirs = GetAllDirections(other).ToList();
-        var entDirsCollapsed = PipeDirection.None;
+        var entDirsAndLayers = GetAllDirectionsAndLayers(ent).ToList();
+        var otherDirsAndLayers = GetAllDirectionsAndLayers(other).ToList();
 
-        foreach (var dir in entDirs)
+        foreach (var (dir, layer) in entDirsAndLayers)
         {
-            entDirsCollapsed |= dir;
-            foreach (var otherDir in otherDirs)
+            foreach (var (otherDir, otherLayer) in otherDirsAndLayers)
             {
-                takenDirs |= otherDir;
-                if (StrictPipeStacking)
-                    if ((dir & otherDir) != 0)
-                        return (true, takenDirs);
-                else
-                    if ((dir ^ otherDir) != 0)
-                        break;
+                if ((dir & otherDir) != 0 && layer == otherLayer)
+                    return true;
             }
         }
 
@@ -131,13 +124,13 @@ public sealed class PipeRestrictOverlapSystem : EntitySystem
 
         return (StrictPipeStacking ? false : ((takenDirs & entDirsCollapsed) == entDirsCollapsed), takenDirs);
 
-        IEnumerable<PipeDirection> GetAllDirections(Entity<NodeContainerComponent, TransformComponent> pipe)
+        IEnumerable<(PipeDirection, AtmosPipeLayer)> GetAllDirectionsAndLayers(Entity<NodeContainerComponent, TransformComponent> pipe)
         {
             foreach (var node in pipe.Comp1.Nodes.Values)
             {
                 // we need to rotate the pipe manually like this because the rotation doesn't update for pipes that are unanchored.
                 if (node is PipeNode pipeNode)
-                    yield return pipeNode.OriginalPipeDirection.RotatePipeDirection(pipe.Comp2.LocalRotation);
+                    yield return (pipeNode.OriginalPipeDirection.RotatePipeDirection(pipe.Comp2.LocalRotation), pipeNode.CurrentPipeLayer);
             }
         }
     }
