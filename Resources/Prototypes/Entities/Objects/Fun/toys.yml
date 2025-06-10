@@ -1781,7 +1781,7 @@
   name: toy double-bladed energy sword
   parent: ToySword
   id: EnergySwordDoubleToy
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
+  description: Sandy-Cat might have discontinued the 'official' toy version of the twin-blade, but that won't stop you from tying two toy swords together and having a blast!
   components:
   - type: ItemToggle
     predictable: false # audio prediction bugged with some energy weapons
